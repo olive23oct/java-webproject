@@ -40,7 +40,7 @@
 			return false;
 		}
 		alert("모든 데이타 확인완료!! 서버로 전달처리합니다.");
-		vForm.action = "ex06_resp.jsp";
+		vForm.action = "05_respnse_ex02.jsp";
 		vForm.submit();
 
 	}
