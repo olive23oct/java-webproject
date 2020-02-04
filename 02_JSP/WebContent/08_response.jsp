@@ -5,9 +5,12 @@
 
 	String site = request.getParameter("site");
 	switch(site){
-	case "naver": response.sendRedirect("https://naver.com");
-	case "daum": response.sendRedirect("https://daum.net");
-	case "google": response.sendRedirect("https://google.com");
+		case "naver": response.sendRedirect("https://naver.com");
+		break;
+		case "daum": response.sendRedirect("https://daum.net");
+		break;
+		case "google": response.sendRedirect("https://google.com");
+		break;
 
 	}
 %>
